@@ -36,7 +36,6 @@ h1, h2, h3 {
 
 h1 {
 	color: #dddddd;
-	text-shadow: 0px 1px 1px #4d4d4d;
 	text-align: center;
 	font-size: min(70px, 11vw);
 	font-weight: bold;
@@ -102,20 +101,6 @@ a:hover {
 
 .thought a:hover {
 	text-decoration: none;
-}
-
-.thought a .hashlink {
-	position: relative;
-	left: -1.2ch;
-	float: left;
-	opacity: 0;
-	visibility: hidden;
-	transition: opacity 0.2s ease-in-out;
-}
-
-.thought:not(:target) a:hover .hashlink {
-	visibility: visible;
-	opacity: 1;
 }
 
 audio {
