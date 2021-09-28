@@ -20,6 +20,21 @@
     
     <item>
       <title>Turhantarkka Notes</title>
+      <link>https://netbros.com/#1632848254</link>
+      <pubDate>Tue, 28 Sep 2021 12:57:34 -0400</pubDate>
+      <guid>https://netbros.com/#1632848254</guid>
+      <description>&lt;p&gt;On git configuration, there is a local and a global. I tend to forget the first. The barebones:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config user.name &amp;quot;your-user-name&amp;quot;
+git config user.email &amp;quot;your-email-addr&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config --global user.name &amp;quot;your-user-name&amp;quot;
+git config --global user.email &amp;quot;your-email-addr&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The first will apply to the current repository, the second to all. Local configuration bumps global.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turhantarkka Notes</title>
       <link>https://netbros.com/#1632848216</link>
       <pubDate>Tue, 28 Sep 2021 12:56:56 -0400</pubDate>
       <guid>https://netbros.com/#1632848216</guid>
