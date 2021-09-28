@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes</title>
-    <link>https://netbros.com/categories/</link>
+    <link>https://netbros.com/</link>
     <description>Recent content on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,28 +10,28 @@
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
       <title>Notes</title>
-      <link>https://netbros.com/categories/</link>
+      <link>https://netbros.com/</link>
       <width>144</width>
       <height>144</height>
     </image>
     
-        <atom:link href="https://netbros.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://netbros.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <link>https://netbros.com/1632846375/</link>
+      <link>https://netbros.com/#1632846375</link>
       <pubDate>Tue, 28 Sep 2021 12:26:15 -0400</pubDate>
       <author>notes@netbros.com (Turhantarkka)</author>
-      <guid>https://netbros.com/1632846375/</guid>
+      <guid>https://netbros.com/#1632846375</guid>
       <description>&lt;p&gt;About importing all notes, and making the URLs work&amp;hellip; forget that! Too much work and, truth be told, not worth it. Notes are fleeting, just like thoughts. Sorry for breaking everything! 😞&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <link>https://netbros.com/1632843418/</link>
+      <link>https://netbros.com/#1632843418</link>
       <pubDate>Tue, 28 Sep 2021 11:36:58 -0400</pubDate>
       <author>notes@netbros.com (Turhantarkka)</author>
-      <guid>https://netbros.com/1632843418/</guid>
+      <guid>https://netbros.com/#1632843418</guid>
       <description>&lt;p&gt;A few days ago I saw 
 &lt;a  target=&#34;_blank&#34; rel=&#34;external noopener&#34; href=&#34;https://news.ycombinator.com/item?id=28514050&#34;&gt;thoughts.page&lt;/a&gt; on Hacker News, and I liked the simplicity of it, which is something I have experimented with before. I created an account, and promptly spawned my own &amp;ldquo;
 &lt;a  target=&#34;_blank&#34; rel=&#34;external noopener&#34; href=&#34;https://fastidious.thoughts.page&#34;&gt;thoughts&lt;/a&gt;.&amp;rdquo;&lt;/p&gt;
@@ -43,10 +43,10 @@
     </item>
     
     <item>
-      <link>https://netbros.com/1632025115/</link>
+      <link>https://netbros.com/#1632025115</link>
       <pubDate>Sun, 19 Sep 2021 00:18:35 -0400</pubDate>
       <author>notes@netbros.com (Turhantarkka)</author>
-      <guid>https://netbros.com/1632025115/</guid>
+      <guid>https://netbros.com/#1632025115</guid>
       <description>&lt;p&gt;&amp;ldquo;Only when the last tree is cut down, the last ocean poisoned, and the last fish eaten, will we realise we can&amp;rsquo;t eat money.&amp;rdquo;&lt;/p&gt;
 </description>
     </item>
