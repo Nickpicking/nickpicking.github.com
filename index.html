@@ -1,11 +1,13 @@
-<!doctype html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="Cache-Control" content="no-store">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<!DOCTYPE html>
+<html><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Notes</title>
+
+<link rel='stylesheet' href='/css/style.css'>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/devibeans.min.css">
@@ -14,256 +16,44 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<title>Notes</title>
-<style>
-body{
-	margin: 20px auto;
-	max-width: 50em;
-	line-height: 2rem;
-	font-size: 1.1rem;
-	color: #dddddd;
-	background-color: #000000;
-	padding: 0 10px;
-	font-family: "Karla";
-	text-rendering: optimizeLegibility;
-	-webkit-hyphens: auto;
-	-webkit-hyphenate-limit-before: 3;
-	-webkit-hyphenate-limit-after: 3;
-	-webkit-hyphenate-limit-chars: 6 3 3;
-	-webkit-hyphenate-limit-lines: 2;
-	-webkit-hyphenate-limit-last: always;
-	-webkit-hyphenate-limit-zone: 8%;
-	-moz-hyphens: auto;
-	-moz-hyphenate-limit-chars: 6 3 3;
-	-moz-hyphenate-limit-lines: 2;
-	-moz-hyphenate-limit-last: always;
-	-moz-hyphenate-limit-zone: 8%;
-	-ms-hyphens: auto;
-	-ms-hyphenate-limit-chars: 6 3 3;
-	-ms-hyphenate-limit-lines: 2;
-	-ms-hyphenate-limit-last: always;
-	-ms-hyphenate-limit-zone: 8%;
-	hyphens: auto;
-	hyphenate-limit-chars: 6 3 3;
-	hyphenate-limit-lines: 2;
-	hyphenate-limit-last: always;
-	hyphenate-limit-zone: 8%;
-}
+<script>
+hljs.initHighlightingOnLoad();
+</script>
 
-h1, h2, h3 {
-	line-height: 1.0;
-	font-family: "Karla";
-	font-weight: normal;
-}
+<link rel="alternate" type="application/rss+xml" href="/index.xml" />
 
-h1 {
-	color: #dddddd;
-	text-align: center;
-	font-size: min(70px, 11vw);
-	font-weight: bold;
-	margin-bottom: 30px;
-	margin-top: 40px;
-}
+<meta property="og:title" content="Notes" />
+<meta property="og:description" content="Notes, thoughts, and rants." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://netbros.com/" /><meta property="og:image" content="https://netbros.com/img/opengraph_card.png"/><meta property="og:site_name" content="Notes" />
 
-h1 a {
-	text-decoration: none;
-}
 
-code, pre {
-	font-family: "Source Code Pro";
-	font-size: 1rem;
-}
-
-a[rel*="external"]::after {
-	content: " "
-	url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23708090'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
-}
-
-.thought {
-	padding: 15px;
-	margin-bottom: 15px;
-}
-
-.thought:target {
-	border: 1px solid #00bfff;
-	padding: 14px;
-	background: #0e0e0e;
-}
-
-.thought h3 {
-	margin-bottom: 10px;
-}
-
-.thought p:first-child {
-	margin-top: 3px;
-}
-
-.thought p:last-child {
-	margin-bottom: 3px;
-}
-
-a {
-	text-decoration: none;
-	color: #00bfff;
-}
-
-.thought a:hover {
-	text-decoration: none;
-	color: #0086b3;
-}
-
-.thought-date {
-	font-family: "Source Code Pro";
-	font-size: 0.9rem;
-}
-
-.thought-date a {
-	color: #5e5e62;
-}
-
-.thought-date a:hover {
-	color: #00bfff;
-}
-
-audio {
-	width: 100%;
-}
-
-img {
-	width: 100%;
-}
-
-.footer {
-	font-size: 1rem;
-	margin-bottom: 30px;
-}
-
-hr {
-	border: none;
-	height: 1px;
-	background-color: #8d8d8d;
-}
-
-section {
-	background-color: #181818;
-}
-
-.right {
-	float: right;
-}
-
-blockquote {
-	color: slategray;
-	padding-left: 1rem;
-	margin-left: 0rem;
-}
-
-blockquote a:hover {
-	color: #00bfff;
-}
-
-blockquote a {
-	color: #c0c0c0;
-}
-</style>
-</head>
 <body>
-<h1><a href="/" alt="Home">Notes</a></h1>
-<!-- Your thoughts start here -->
-<section class="thought" id="411681784229"><div class="thought-date"><a class="thought-date" href="#411681784229"># 2021-09-27 / 15:49:09</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#411681784229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href=#top>&#8593;</a></div><div><p>Making a breaking change soon. Everything will be gone. Pretty must a wipe. I am really sorry about that, but notes will scale much easier after this. On pause until the "rupture!" 😂</p> </div></section>
-<section class="thought" id="353629543829"><div class="thought-date"><a class="thought-date" href="#353629543829"># 2021-09-27 / 08:17:36</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#353629543829&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href=#top>&#8593;</a></div><div><p>Mazda US sending advertising about upcoming vehicles while using all EU images is beyond parody.</p> </div></section>
-<section class="thought" id="149029533529"><div class="thought-date"><a class="thought-date" href="#149029533529"># 2021-09-26 / 14:11:46</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#149029533529&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href=#top>&#8593;</a></div><div><p>Drank lots of water yesterday. More so that any previous day. But I forgot to enter the count on the Health app, and it is now trying to make me feel guilty by letting me know I broke a streak. Such an unforgiving algorithm!</p> </div></section>
-<section class="thought" id="39014190629"><div class="thought-date"><a class="thought-date" href="#39014190629"># 2021-09-26 / 13:16:02</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#39014190629&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href=#top>&#8593;</a></div><div><p>More on <a href="#198432205229">this</a>. It will also be easily possible to do what <a href="https://blue.thoughts.page/#1632651299" rel="external">Blue</a> wanted to do, pagination and, as previously said, tags, and more.</p> </div></section>
-<section class="thought" id="198432205229"><div class="thought-date"><a class="thought-date" href="#198432205229"># 2021-09-26 / 12:51:32</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#198432205229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href=#top>&#8593;</a></div><div><p>Though I like to simplicity of the script I use to generate this page, it doesn't scale well, specifically when making changes. It also doesn't allow the use of Markdown, which I am used to it. Seriously considering changing this to a <a href="https://jekyllrb.com" rel="external">Jekyll</a> or <a href="https://gohugo.io" rel="external">Hugo</a> site, as I can relatively easily replicate the look, while having other niceties like RSS, taxonomies, Open Graph, Twitter Cards, etc. And I still could use a script to create notes.</p> <p>Better do that before there are too many notes to convert.🤔</p> </div></section>
-<section class="thought" id="320857143229"><div class="thought-date"><a class="thought-date" href="#320857143229"># 2021-09-26 / 12:36:22</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#320857143229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href=#top>&#8593;</a></div><div><p>The Apple Store was full as always&mdash;though maintaining social distancing guidelines&mdash;while the Microsoft Store is now gone. Who would have thought? 🤣</p> </div></section>
-<section class="thought" id="64813150529"><div class="thought-date"><a class="thought-date" href="#64813150529"># 2021-09-25 / 22:31:15</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#64813150529&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"Death is that state in which one exists only in the memory of others, which is why it is not an end. No good-byes. Just good memories."</p> </div></section>
-<section class="thought" id="345803073429"><div class="thought-date"><a class="thought-date" href="#345803073429"># 2021-09-25 / 22:17:09</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#345803073429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>I have eaten enough carbs today for an entire week, easily. That means next Friday will not be "cheating Friday". I need to cut back. I also only clocked 7,582 steps today. So, overall, healthwise? A bad day.</p> </div></section>
-<section class="thought" id="17056298829"><div class="thought-date"><a class="thought-date" href="#17056298829"># 2021-09-25 / 21:26:36</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#17056298829&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Just transfered data, and played around with the child's iPhone, and I am in love all over again. The device is noticeably faster, the display is sharper, brighter, and more colourful. The two photos I took with it look amazing. It is easier to grasp, it feels better in ones hand. I can truly say I am jelly!</p> </div></section>
-<section class="thought" id="138446195829"><div class="thought-date"><a class="thought-date" href="#138446195829"># 2021-09-25 / 15:37:59</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#138446195829&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p><strong>Richard Burton:</strong> <em>Orson, how good to see you. It's been too long. You're looking fine. Elizabeth is with me. She so much wants to meet you. Can I bring her over to your table?</em><br /> <strong>O.W.:</strong> <em>No. As you can see, I'm in the middle of my lunch. I'll stop by on my way out.</em></p> <p>Oldie, but such a great read <a href="https://www.vulture.com/2013/06/orson-welles-lunch-with-henry-jaglom.html" rel="external">this is</a>!</p> </div></section>
-<section class="thought" id="357745877429"><div class="thought-date"><a class="thought-date" href="#357745877429"># 2021-09-25 / 15:30:37</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#357745877429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Hey, Saturday! Slowdown, please! Come on, what's the rush! 😩</p> </div></section>
-<section class="thought" id="256083944329"><div class="thought-date"><a class="thought-date" href="#256083944329"># 2021-09-25 / 15:28:06</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#256083944329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Partner provides the reason for dressing up for a social event: to show respect to the hosts. Even if one feels much more comfortable on lesser clothes, one must dress up for the sake of the host. The same applies for the special house cleaning that occurs when expecting guests: it is done to show respect to them. Partner wisdom&mdash;and beliefs&mdash;101.</p> </div></section>
-<section class="thought" id="426202917029"><div class="thought-date"><a class="thought-date" href="#426202917029"># 2021-09-25 / 13:31:34</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#426202917029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"I am taking my mask off; I see lots of people without one!" a guy tells his partner at the wholesale store. It is amazingly mind boggling how people rationalise things.</p> </div></section>
-<section class="thought" id="372215892229"><div class="thought-date"><a class="thought-date" href="#372215892229"># 2021-09-25 / 11:30:31</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#372215892229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"This package was delivered at 19:24 yesterday" &mdash; said the lady at the UPS counter. "No, it was not. Check again please" "What is the tracking number?" &mdash; she said. "Can't you pull it from the note they left at my door?" "It seems the driver left the wrong note." &mdash; sounding and looking apologetic. Gave her the tracking number. "Found it, please wait a moment." Minutes later I walked away with the kid's, rather slim, Apple's iPhone box. Yay! 🥳</p> </div></section>
-<section class="thought" id="129356800129"><div class="thought-date"><a class="thought-date" href="#129356800129"># 2021-09-24 / 16:47:15</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#129356800129&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>UPS came to deliver the iPhone while I was in a meeting&mdash;of course! Now I will have to drive half an hour to pick it up... tomorrow after 10:00. 😤</p> </div></section>
-<section class="thought" id="136963674429"><div class="thought-date"><a class="thought-date" href="#136963674429"># 2021-09-24 / 13:40:21</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#136963674429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Yup, <a href="#207412303429">that</a> did the trick. Any new notes now, any edits, and new files, will show as soon as the push has completed. Before it would take up to 2 minutes or more.</p> </div></section>
-<section class="thought" id="207412303429"><div class="thought-date"><a class="thought-date" href="#207412303429"># 2021-09-24 / 13:31:20</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#207412303429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Hoping this file I added (<code>.nojekyll</code>) will stop GitHub Pages from rebuilding. There is nothing to build, just to serve, here.</p> </div></section>
-<section class="thought" id="119533582229"><div class="thought-date"><a class="thought-date" href="#119533582229"># 2021-09-24 / 11:05:10</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#119533582229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>It should be illegal to remain inside a building when we are having such a nice weather, but here I am. Sunshine and 75°F feels like heaven.</p></div></section>
-<section class="thought" id="259832687429"><div class="thought-date"><a class="thought-date" href="#259832687429"># 2021-09-24 / 07:44:39</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#259832687429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Now I am afraid to have hurt someone's feelings. I can tell I have changed; ten years ago I would not have cared. Now I do.</p </div></section>
-<section class="thought" id="175315141529"><div class="thought-date"><a class="thought-date" href="#175315141529"># 2021-09-24 / 07:40:22</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#175315141529&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>I sent something to my family messaging group yesterday that it was a thought I didn't mean to share&mdash;I was, mostly, afraid of offending sensibilities. Yet, got distraught in a conversation with my parents, and typed it without realising.</p> </div></section>
-<section class="thought" id="412600372529"><div class="thought-date"><a class="thought-date" href="#412600372529"># 2021-09-23 / 15:57:33</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#412600372529&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Trying to be apolitical is so hard these days! The vast majority of the Republican party isn't only not serious, they are clownish. And divisive, and racist, and dangerous. All it takes is to <a href="https://www.newsweek.com/marjorie-taylor-greene-soviet-symbol-green-new-deal-helps-china-1631819" rel="external">see them</a>.<p/> </div></section>
-<section class="thought" id="165746172329"><div class="thought-date"><a class="thought-date" href="#165746172329"># 2021-09-23 / 14:20:22</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#165746172329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>There is always a first time. This I got from GitHub on an email:</p> <blockquote><p>The page build failed for the `main` branch with the following error:<br />Unable to build page. Please try again later.</p></blockquote> <p>Soon after the page showed, updated.</p> </div></section>
-<section class="thought" id="362294091729"><div class="thought-date"><a class="thought-date" href="#362294091729"># 2021-09-23 / 14:05:53</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#362294091729&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Talking about time, because it relates, what a lovely weather we are having today! It truly feels like Autumn has settled in, but let us not jinx it, as the weather around here is known to have many moods.</p></div></section>
-<section class="thought" id="190917101629"><div class="thought-date"><a class="thought-date" href="#190917101629"># 2021-09-23 / 14:00:46</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#190917101629&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>The world needs more Samoas. They are just <a href="https://www.timeanddate.com/news/time/samoa-removes-dst.html" rel="external">scrapping Daylight Saving Time</a> (DST). Wish everyone else using it&mdash;I am looking at you, US!&mdash;would do the same.</p> </div></section>
-<section class="thought" id="388000657929"><div class="thought-date"><a class="thought-date" href="#388000657929"># 2021-09-23 / 11:00:45</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#388000657929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>The child iPhone has shipped. Delivers tomorrow! Wow, someone is going to be tickled! Well, maybe not; that someone is rather ambivalent towards technology in general.</p> </div></section>
-<section class="thought" id="308821042929"><div class="thought-date"><a class="thought-date" href="#308821042929"># 2021-09-23 / 09:07:03</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#308821042929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>And done. The <a href="#308821042929">date/timestamp</a> is the permalink to the note. The <code>@</code> symbol is a mailto customised for the note, and the <code>&#8593;</code> symbol always goes to top.</p> </div></section>
-<section class="thought" id="332972913829"><div class="thought-date"><a class="thought-date" href="#332972913829"># 2021-09-23 / 08:31:55</a>  <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#332972913829&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Testing a way to allow people to email me on an specific note. This is bound to break things, but I will fix it. This note is the guinea pig.</p> </div></section>
-<section class="thought" id="6574393829"><div class="thought-date"><a class="thought-date" href="#6574393829"># 2021-09-22 / 15:32:10</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#6574393829&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>With 96° F temperature, and a 61% humidity, I am not really looking forward to mow the lawn this afternoon. I will also be mowing against the clock, as afternoon thunderstorms are more on time than a German train.</p></div></section>
-<section class="thought" id="356163852529"><div class="thought-date"><a class="thought-date" href="#356163852529"># 2021-09-22 / 13:33:05</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#356163852529&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Haven't had Pad Thai for over two years, and today's felt like a perfectly tuned symphony to my taste buds.</p> </div></section>
-<section class="thought" id="32951998029"><div class="thought-date"><a class="thought-date" href="#32951998029"># 2021-09-22 / 08:03:02</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#32951998029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>🍂🍁 Happy Autumnal Equinox, everyone! 🍁🍂</p> </div></section>
-<section class="thought" id="195146543429"><div class="thought-date"><a class="thought-date" href="#195146543429"># 2021-09-22 / 07:42:10</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#195146543429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p><a href="#177449146029">Continued watching</a> "<a href="https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation" rel="external">Star Trek: The Next Generation</a>", right after an episode from "<a href="https://en.wikipedia.org/wiki/Better_Call_Saul" rel="external">Better Call Saul</a>", which I watched with the offspring. ☺️</p> </div></section>
-<section class="thought" id="177449146029"><div class="thought-date"><a class="thought-date" href="#177449146029"># 2021-09-21 / 20:06:05</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#177449146029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div>What to watch tonight? Need to decide soon, only got 2.5 hours left before I turn into a pumpkin. </div></section>
-<section class="thought" id="90967983929"><div class="thought-date"><a class="thought-date" href="#90967983929"># 2021-09-21 / 19:59:57</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#90967983929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div>I think I will keep it. Now I need to edit all the previous to make it reflect the change. A search and replace should do. </div></section>
-<section class="thought" id="126777860729"><div class="thought-date"><a class="thought-date" href="#126777860729"># 2021-09-21 / 19:56:33</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#126777860729&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div>Implementing a way to go to top, from any of the notes. This could become handy when they become too many. Let's see how it shows. </div></section>
-<section class="thought" id="400909585729"><div class="thought-date"><a class="thought-date" href="#400909585729"># 2021-09-21 / 19:37:37</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#400909585729&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Five packs of Ocha & Co. Organic Japanese Sencha Green Tea, 100g each, are on the way. By far one of the best teas I ever had. Japanese tea is normally consumed without cream, nor sugar; just tea.</p> </div></section>
-<section class="thought" id="4672624329"><div class="thought-date"><a class="thought-date" href="#4672624329"># 2021-09-21 / 19:25:11</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#4672624329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"<em>Let us eat hot, fresh bread, dipping it in olive oil with garlic</em>", said mum, "<em>But only if the weather is cold.</em>" 🤣 Cold? This time of the year? I guess we are not eating hot, fresh bread, dipping it in olive oil with garlic. 😩</p> </div></section>
-<section class="thought" id="185275468329"><div class="thought-date"><a class="thought-date" href="#185275468329"># 2021-09-21 / 15:43:02</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#185275468329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Done! I now use full HTML, pretty much, to write these notes. It gives me full control on what goes into the editor. That's a lot of flexibility!</p> </div></section>
-<section class="thought" id="221066744729"><div class="thought-date"><a class="thought-date" href="#221066744729"># 2021-09-21 / 15:05:56</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#221066744729&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>OK, this is the time to break things by experimenting. I have commented out a few lines on the <code>parse.awk</code> code, and this entry is to prove whether or not I managed to mangle to whole thing.</p> <p>This line starts a new paragraph. This concludes this test.</p> </div></section>
-<section class="thought" id="188540800229"><div class="thought-date"><a class="thought-date" href="#188540800229"># 2021-09-21 / 14:14:42</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#188540800229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>I might get around <a href="#415218653629">this limitation</a> by removing the portion that does the regex for the <code>&lt;br&gt;</code>, and using <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code> for every new line on my entries.</p> </div></section>
-<section class="thought" id="415218653629"><div class="thought-date"><a class="thought-date" href="#415218653629"># 2021-09-21 / 14:04:13</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#415218653629&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Because of thoughts (the script) replaces returns with <code>&lt;br&gt;</code>, a lot of fiddling, and an extra care is needed to get the formatting right. If only I knew regex foo!</p> </div></section>
-<section class="thought" id="300263671029"><div class="thought-date"><a class="thought-date" href="#300263671029"># 2021-09-21 / 13:38:01</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#300263671029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>This one is to style blockquotes, bulleted, and numbered lists. If I don't post it now, I will keep forgetting.</p>
-<p>Unordered list:</p>
-<ul>
-<li>Buy avocados (3 for $5!).</li>
-<li>Buy two fresh cucumbers.</li>
-</ul>
-<p>Ordered list:</p>
-<ol>
-<li>Open the bottle's cap.</li>
-<li>Drink the bottle's content.</li>
-</ol>
-<p>And, finally, a blockquote:</p>
-<blockquote><p>"And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye."</p><p>&mdash; From <a href="https://en.wikipedia.org/wiki/Antoine_de_Saint-Exupéry" rel="external">Antoine de Saint-Exupéry</a>'s, <a href="https://en.wikipedia.org/wiki/The_Little_Prince" rel="external"><em>The Little Prince</em></a></p></blockquote></div></section>
-<section class="thought" id="100947326929"><div class="thought-date"><a class="thought-date" href="#100947326929"># 2021-09-21 / 12:28:39</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#100947326929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Leftovers of shredded chicken, and steamed vegetable potpourri. That was lunch. Oh, and a glass of pure pineapple juice. I now need a powernap. I have 30 minutes left from lunch, so 30 minutes would do.</p> </div></section>
-<section class="thought" id="362143957429"><div class="thought-date"><a class="thought-date" href="#362143957429"># 2021-09-21 / 09:18:11</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#362143957429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Forgot to note that <a href="#147567158029">this</a> went well. I was able to turn me to sleep mode around 22:30. If there is something I do well it is falling asleep and waking up. Both happen as if a switch is flipped.</p> </div></section>
-<section class="thought" id="134883791629"><div class="thought-date"><a class="thought-date" href="#134883791629"># 2021-09-21 / 09:03:21</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#134883791629&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Funny how my phone tells me that I drank water on "7 of the last 7 days." I think I would be in a slight trouble if I didn't. 😂</p> </div></section>
-<section class="thought" id="205097721029"><div class="thought-date"><a class="thought-date" href="#205097721029"># 2021-09-21 / 07:24:13</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#205097721029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Waiting for Synology appliances to upgrade their DSM is like watching paint dry. It seems worse if they have a multi-terabyte storage.</p> </div></section>
-<section class="thought" id="186002110329"><div class="thought-date"><a class="thought-date" href="#186002110329"># 2021-09-21 / 07:12:02</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#186002110329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>To get the most accurate step count, the phone really needs to be close to your waist (in your pocket is fine, as long as it isn't too lose). It will cheat you on count if you hold it in your hand, specially on the one you don't move much while walking. I am talking of 1270 steps while on pocket versus 720 steps while in hand.</p> </div></section>
-<section class="thought" id="147567158029"><div class="thought-date"><a class="thought-date" href="#147567158029"># 2021-09-20 / 21:36:30</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#147567158029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Changing routine wake up time from 06:30 to 06:00, starting tomorrow. That means I need to be full asleep by 22:30, or whereabouts, to get those seven-ish hours of sleep.</p> </div></section>
-<section class="thought" id="31657578329"><div class="thought-date"><a class="thought-date" href="#31657578329"># 2021-09-20 / 15:22:09</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#31657578329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Here it comes the daily, almost on clockwork schedule, afternoon thunderstorm. Wishing and hoping for no lighting. One can dream! 😂</p> </div></section>
-<section class="thought" id="315379985829"><div class="thought-date"><a class="thought-date" href="#315379985829"># 2021-09-20 / 14:46:40</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#315379985829&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>First world problem: "The fear that a vehicle has insufficient range to reach its destination and would thus strand the vehicle's occupants." 🗞 <a href="https://en.wikipedia.org/wiki/Range_anxiety">&#8594;</a></p> </div></section>
-<section class="thought" id="302221342029"><div class="thought-date"><a class="thought-date" href="#302221342029"># 2021-09-20 / 14:13:16</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#302221342029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>I believe the interview went well. They have an internal candidate (was not told, but I know they do), but there is a chance. If anything this interview serves as a refresher, as I haven't being in one for a long time.</p> </div></section>
-<section class="thought" id="240742656429"><div class="thought-date"><a class="thought-date" href="#240742656429"># 2021-09-20 / 13:00:22</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#240742656429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Interviewer is late, and it is a Zoom interview. 😬</p> </div></section>
-<section class="thought" id="291470748129"><div class="thought-date"><a class="thought-date" href="#291470748129"># 2021-09-20 / 10:16:25</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#291470748129&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Who mows the lawn for over an hour? The noise is starting to drive me crazy.</p> </div></section>
-<section class="thought" id="246294675229"><div class="thought-date"><a class="thought-date" href="#246294675229"># 2021-09-20 / 10:05:47</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#246294675229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>We have been told that today is the day to start clocking in our time, for almost everything we do. It is going to take some getting used to it. 😓</p> </div></section>
-<section class="thought" id="419002751329"><div class="thought-date"><a class="thought-date" href="#419002751329"># 2021-09-20 / 09:48:40</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#419002751329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"When societies industrialize, food systems have to adapt. Enter the demae, or delivery men, who braved the streets of Edo balancing towers of dozens of piping hot meals on their shoulders to feed the hungry masses." 🗞 <a href="https://www.atlasobscura.com/articles/japan-soba-noodle-delivery-men">&#8594;</a></p> </div></section>
-<section class="thought" id="9332333929"><div class="thought-date"><a class="thought-date" href="#9332333929"># 2021-09-20 / 08:51:26</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#9332333929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"America has passed another grim COVID-19 milestone, as data shows that one in 500 people living in the US have died from the virus since the pandemic began." 📰 <a href="https://www.theguardian.com/world/2021/sep/15/covid-deaths-milestone-hospitals-reach-capacity">&#8594;</a></p> </div></section>
-<section class="thought" id="144785667629"><div class="thought-date"><a class="thought-date" href="#144785667629"># 2021-09-20 / 07:56:37</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#144785667629&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>On git configuration, there is a local and a global. I tend to forget the first. The barebones:</p>
-<pre><code class="block">git config user.name &quot;your-user-name&quot;
-git config user.email &quot;your-email-addr&quot;
-</code></pre>
-<p>And:</p>
-<pre><code class="block">git config --global user.name &quot;your-user-name&quot;
-git config --global user.email &quot;your-email-addr&quot;
-</code></pre>
-<p>The first will apply to the current repository, the second to all. Local configuration bumps global.</p> </div></section>
-<section class="thought" id="340330157029"><div class="thought-date"><a class="thought-date" href="#340330157029"># 2021-09-20 / 07:30:13</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#340330157029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Onto Monday! Got a politeness interview today. Politeness because I have the strong feeling they have someone else in mind for this position, they just need to advertise it, and interview some people, by law.</p> </div></section>
-<section class="thought" id="416572233329"><div class="thought-date"><a class="thought-date" href="#416572233329"># 2021-09-19 / 20:47:15</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#416572233329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Finished watching "<a href="https://en.wikipedia.org/wiki/Oh_My_Venus" rel="external">Oh my Venus</a>". It was good but, as with a lot of Korean series, it went too fast towards the end. "<a href="https://en.wikipedia.org/wiki/Hometown_Cha-Cha-Cha" rel="external">Hometown Cha-Cha-Cha</a>" has become a little boring, at least this weekend's episodes.</p> </div></section>
-<section class="thought" id="252111256729"><div class="thought-date"><a class="thought-date" href="#252111256729"># 2021-09-19 / 16:01:11</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#252111256729&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Not all warriors wear metal armor, and carry swords. Some wear only a smile.</p> </div></section>
-<section class="thought" id="124852589929"><div class="thought-date"><a class="thought-date" href="#124852589929"># 2021-09-19 / 15:32:51</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#124852589929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>My life has turned into an endless worrying. Not as much for me, but my offspring. Still a bit for me, as my offspring needs me. So I worry twice. Not a good feeling.</p> </div></section>
-<section class="thought" id="136690368629"><div class="thought-date"><a class="thought-date" href="#136690368629"># 2021-09-19 / 15:21:48</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#136690368629&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>We all have our time machines, don't we? Those that takes us back are memories ... and those that carry us forward are dreams.</p> </div></section>
-<section class="thought" id="178059878029"><div class="thought-date"><a class="thought-date" href="#178059878029"># 2021-09-19 / 14:01:33</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#178059878029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"With a tiny metal cart home pulled by his sheep, he has a bed, a refrigerator/evaporative cooler, a shower (he uses a pesticide sprayer to pump up the water pressure), power (solar panel), sun oven, a mailbox stove for heat, bicycle tire wheels and a corrugated plastic roof." 📹 <a href="https://www.youtube.com/watch?v=U54HRmglYEA">&#8594;</a></p> </div></section>
-<section class="thought" id="28813026329"><div class="thought-date"><a class="thought-date" href="#28813026329"># 2021-09-19 / 13:55:46</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#28813026329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>🎶 "I'm still standing better than I ever did, looking like a true survivor, feeling like a little kid..." 🎶</p> </div></section>
-<section class="thought" id="254855081329"><div class="thought-date"><a class="thought-date" href="#254855081329"># 2021-09-19 / 13:52:12</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#254855081329&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Haven't played Diablo III for the last two, or three weeks. The shoulder pain is subsiding. Still, I need to keep an eye on the season's end, so I don't lose my loot. 😋</p> </div></section>
-<section class="thought" id="300483482429"><div class="thought-date"><a class="thought-date" href="#300483482429"># 2021-09-19 / 13:37:05</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#300483482429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>I am not a boomer but, not caring about Discord, or Youtube, makes me one?</p> </div></section>
-<section class="thought" id="3806623629"><div class="thought-date"><a class="thought-date" href="#3806623629"># 2021-09-19 / 11:38:29</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#3806623629&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>I have been sitting for the last 15 minutes, just waiting not be sweaty anymore to shower, and head out. No signs of breakfast yet, don't know what I will eat. Perhaps I will skip it.</p> </div></section>
-<section class="thought" id="180771290029"><div class="thought-date"><a class="thought-date" href="#180771290029"># 2021-09-19 / 11:08:30</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#180771290029&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>"If Israel was going to kill a top Iranian official, an act that had the potential to start a war, it needed the assent and protection of the United States. That meant acting before Mr. Biden could take office." 📰 <a href="https://www.nytimes.com/2021/09/18/world/middleeast/iran-nuclear-fakhrizadeh-assassination-israel.html">&#8594;</a></p> </div></section>
-<section class="thought" id="53014896929"><div class="thought-date"><a class="thought-date" href="#53014896929"># 2021-09-19 / 10:58:14</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#53014896929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>I got 11,312 steps now. I should be over 15,000 easily before the day is over. I am averaging 12,964 steps daily for the week so far. But week's not over! 💪🏻</p></div></section>
-<section class="thought" id="284379182429"><div class="thought-date"><a class="thought-date" href="#284379182429"># 2021-09-19 / 09:12:57</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#284379182429&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>For the first time in the last two weeks I am having to pull all my will strenght to go out walking. I also just woke up, a very, very rare occurence.</p> </div></section>
-<section class="thought" id="72250082529"><div class="thought-date"><a class="thought-date" href="#72250082529"># 2021-09-19 / 00:33:38</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#72250082529&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>That delusional, ignoramus bastard is still going around claiming to have won the 2020 US Presidential Election. And a percentage greater than it should of Americans believe it.</p> </div></section>
-<section class="thought" id="129357144929"><div class="thought-date"><a class="thought-date" href="#129357144929"># 2021-09-19 / 00:26:29</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#129357144929&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Nearly everyone can stand adversity, but if you want to test a person’s character, give it power.</p> </div></section>
-<section class="thought" id="126741921229"><div class="thought-date"><a class="thought-date" href="#126741921229"># 2021-09-19 / 00:18:35</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#126741921229&body=First of all, I just wanted to say that I forgive you for not having a real commenting system on your site.">@</a>  <a class="thought-date" href="#">&#8593;</a></div><div><p>Only when the last tree is cut down, the last ocean poisoned, and the last fish eaten, will we realise we can't eat money.</p> </div></section>
+<header>
+  <h1><a href="/" alt="Home" title="Home">Notes</a></h1>
+</header>
+<div id="content">
+<main>
+
+<section class="note" id="1632843418">
+<div class="note-date"><a href="#1632843418" title="Permalink"># 2021-09-28 / 11:36:58 -0400</a> <a href="mailto:notes@netbros.com?subject=About%20https%3A%2F%2Fnetbros.com%2F#1632843418" title="Comment">@</a>  <a class="note-date" href="#" title="To top!">&#8593;</a></div>
+<div class="note-body"><p>A few days ago I saw 
+<a  target="_blank" rel="external noopener" href="https://news.ycombinator.com/item?id=28514050">thoughts.page</a> on Hacker News, and I liked the simplicity of it, which is something I have experimented with before. I created an account, and promptly spawned my own &ldquo;
+<a  target="_blank" rel="external noopener" href="https://fastidious.thoughts.page">thoughts</a>.&rdquo;</p>
+<p>Wanting more control, I went and grabbed the 
+<a  target="_blank" rel="external noopener" href="https://github.com/thwidge/thoughts">script</a> that started it all, and quickly setup my own &ldquo;thoughts&rdquo;, calling them &ldquo;notes&rdquo;&mdash;because that is more accurate to what they are. Things seemed well, until I decided to tinker with formatting other than CSS. The little script, albeit simple, didn&rsquo;t really scale well. That&rsquo;s when I decided to use a static site generator to replace it, which bring me here. This now gets generated by 
+<a  target="_blank" rel="external noopener" href="https://gohugo.io">Hugo</a>.</p>
+<p>I am going to work to import the old notes, and accept the old URLs, but it is going to take some time. For now, a fresh start.</p>
+</div>
+</section>
+
+</main>
+
+        </div><footer>
 <hr />
-<p class="footer"><a href="#">&#8593; Go to top!</a><span class="right">+<a href="https://thoughts.page/webring">webring</a> @<a href="mailto:notes@netbros.com">contact</a></span></p>
+    <div>
+      <p class="footer"><a href="#">&#10514; GOTO top</a></p>
+    </div>
+</footer>
 </body>
 </html>
