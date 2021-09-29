@@ -19,6 +19,15 @@
     
     
     <item>
+      <title>29 Sep 2021 16:01:24</title>
+      <description>&lt;p&gt;We had had someone pressure washing the driveway, and sidewalks, for the last two hours. If he finishes soon he would have netted $50/hour. My back hurts just thinking of the last time I did it. 😥&lt;/p&gt;
+</description>
+      <pubDate>Wed, 29 Sep 2021 16:01:24 -0400</pubDate>
+      <link>https://netbros.com/#1632945684</link>
+      <guid isPermaLink="true">https://netbros.com/#1632945684</guid>
+    </item>
+    
+    <item>
       <title>29 Sep 2021 11:37:28</title>
       <description>&lt;p&gt;Because of &lt;a href=&#34;#1632915655&#34;&gt;this&lt;/a&gt; I will have to do the entire walking this afternoon. I missed tea time yesterday, and it looks like I will miss it again today. I hope mum doesn&amp;rsquo;t get mad.&lt;/p&gt;
 </description>
@@ -85,10 +94,10 @@
     <item>
       <title>28 Sep 2021 12:57:34</title>
       <description>&lt;p&gt;On git configuration, there is a local and a global. I tend to forget the first. The barebones:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git config user.name &amp;quot;your-user-name&amp;quot;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config user.name &amp;quot;your-user-name&amp;quot;
 git config user.email &amp;quot;your-email-addr&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git config --global user.name &amp;quot;your-user-name&amp;quot;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;quot;your-user-name&amp;quot;
 git config --global user.email &amp;quot;your-email-addr&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The first will apply to the current repository, the second to all. Local configuration bumps global.&lt;/p&gt;
 </description>
