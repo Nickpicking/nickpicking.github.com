@@ -3,7 +3,7 @@
     <title>Notes</title>
     <link>https://netbros.com/</link>
     <description>Recent content on Notes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo - gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>notes@netbros.com (Turhantarkka)</managingEditor>
     <webMaster>notes@netbros.com (Turhantarkka)</webMaster>
@@ -19,55 +19,52 @@
     
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632915655</link>
-      <pubDate>Wed, 29 Sep 2021 07:40:55 -0400</pubDate>
-      <guid>https://netbros.com/#1632915655</guid>
+      <title>Turhantarkka Notes (29 Sep 2021 07:40:55)</title>
       <description>&lt;p&gt;Really sleepy today. I slept the hour I was supposed to be walking. Back hurts too. Ageing sucks.&lt;/p&gt;
 </description>
+      <pubDate>Wed, 29 Sep 2021 07:40:55 -0400</pubDate>
+      <link>https://netbros.com/#1632915655</link>
+      <guid isPermaLink="true">https://netbros.com/#1632915655</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632868018</link>
-      <pubDate>Tue, 28 Sep 2021 18:26:58 -0400</pubDate>
-      <guid>https://netbros.com/#1632868018</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 18:26:58)</title>
       <description>&lt;p&gt;The question now, at this very moment, the one that remains: &lt;strong&gt;what to cook tonight?&lt;/strong&gt; I dread evenings&amp;mdash;above all&amp;mdash;because of that question, and the quest for an acceptable answer.&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 18:26:58 -0400</pubDate>
+      <link>https://netbros.com/#1632868018</link>
+      <guid isPermaLink="true">https://netbros.com/#1632868018</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632858015</link>
-      <pubDate>Tue, 28 Sep 2021 15:40:15 -0400</pubDate>
-      <guid>https://netbros.com/#1632858015</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 15:40:15)</title>
       <description>&lt;p&gt;The fancy cookie that is normally a Friday treat was consumed today. I did it for two reasons: it doesn&amp;rsquo;t matter which day I eat it, as long as it is only one day per week; it will be a test to see how well I can control myself come Friday, and Friday is already special, no need for a cookie to make it more so. Alas, three reasons!&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 15:40:15 -0400</pubDate>
+      <link>https://netbros.com/#1632858015</link>
+      <guid isPermaLink="true">https://netbros.com/#1632858015</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632852488</link>
-      <pubDate>Tue, 28 Sep 2021 14:08:08 -0400</pubDate>
-      <guid>https://netbros.com/#1632852488</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 14:08:08)</title>
       <description>&lt;p&gt;Over four years paying for, and trying to use, a product that hasn&amp;rsquo;t really worked. I believe our time as angel investors has come to an end.&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 14:08:08 -0400</pubDate>
+      <link>https://netbros.com/#1632852488</link>
+      <guid isPermaLink="true">https://netbros.com/#1632852488</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632848734</link>
-      <pubDate>Tue, 28 Sep 2021 13:05:34 -0400</pubDate>
-      <guid>https://netbros.com/#1632848734</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 13:05:34)</title>
       <description>&lt;p&gt;&amp;ldquo;Death is that state in which one exists only in the memory of others, which is why it is not an end. No good-byes. Just good memories.&amp;rdquo;&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 13:05:34 -0400</pubDate>
+      <link>https://netbros.com/#1632848734</link>
+      <guid isPermaLink="true">https://netbros.com/#1632848734</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632848254</link>
-      <pubDate>Tue, 28 Sep 2021 12:57:34 -0400</pubDate>
-      <guid>https://netbros.com/#1632848254</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 12:57:34)</title>
       <description>&lt;p&gt;On git configuration, there is a local and a global. I tend to forget the first. The barebones:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git config user.name &amp;quot;your-user-name&amp;quot;
 git config user.email &amp;quot;your-email-addr&amp;quot;
@@ -76,31 +73,31 @@ git config user.email &amp;quot;your-email-addr&amp;quot;
 git config --global user.email &amp;quot;your-email-addr&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The first will apply to the current repository, the second to all. Local configuration bumps global.&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 12:57:34 -0400</pubDate>
+      <link>https://netbros.com/#1632848254</link>
+      <guid isPermaLink="true">https://netbros.com/#1632848254</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632848216</link>
-      <pubDate>Tue, 28 Sep 2021 12:56:56 -0400</pubDate>
-      <guid>https://netbros.com/#1632848216</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 12:56:56)</title>
       <description>&lt;p&gt;My life has turned into an endless worrying. Not as much for me, but my offspring. Still a bit for me, as my offspring needs me. So I worry twice. Not a good feeling.&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 12:56:56 -0400</pubDate>
+      <link>https://netbros.com/#1632848216</link>
+      <guid isPermaLink="true">https://netbros.com/#1632848216</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632846375</link>
-      <pubDate>Tue, 28 Sep 2021 12:26:15 -0400</pubDate>
-      <guid>https://netbros.com/#1632846375</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 12:26:15)</title>
       <description>&lt;p&gt;About importing old notes, and making the URLs work&amp;hellip; forget about it! Too much work and, truth be told, not worth it. Notes are fleeting, just like thoughts. Sorry for breaking everything! 😞&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 12:26:15 -0400</pubDate>
+      <link>https://netbros.com/#1632846375</link>
+      <guid isPermaLink="true">https://netbros.com/#1632846375</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632843418</link>
-      <pubDate>Tue, 28 Sep 2021 11:36:58 -0400</pubDate>
-      <guid>https://netbros.com/#1632843418</guid>
+      <title>Turhantarkka Notes (28 Sep 2021 11:36:58)</title>
       <description>&lt;p&gt;A few days ago I saw 
 &lt;a  target=&#34;_blank&#34; rel=&#34;external noopener&#34; href=&#34;https://news.ycombinator.com/item?id=28514050&#34;&gt;thoughts.page&lt;/a&gt; on Hacker News, and I liked the simplicity of it, which is something I have experimented with before. I created an account, and promptly spawned my own 
 &lt;a  target=&#34;_blank&#34; rel=&#34;external noopener&#34; href=&#34;https://fastidious.thoughts.page&#34;&gt;thoughts&lt;/a&gt;.&lt;/p&gt;
@@ -109,15 +106,18 @@ git config --global user.email &amp;quot;your-email-addr&amp;quot;
 &lt;a  target=&#34;_blank&#34; rel=&#34;external noopener&#34; href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am going to work to import the old notes, and accept the old URLs, but it is going to take some time. For now, a fresh start.&lt;/p&gt;
 </description>
+      <pubDate>Tue, 28 Sep 2021 11:36:58 -0400</pubDate>
+      <link>https://netbros.com/#1632843418</link>
+      <guid isPermaLink="true">https://netbros.com/#1632843418</guid>
     </item>
     
     <item>
-      <title>Turhantarkka Notes</title>
-      <link>https://netbros.com/#1632025115</link>
-      <pubDate>Sun, 19 Sep 2021 00:18:35 -0400</pubDate>
-      <guid>https://netbros.com/#1632025115</guid>
+      <title>Turhantarkka Notes (19 Sep 2021 00:18:35)</title>
       <description>&lt;p&gt;&amp;ldquo;Only when the last tree is cut down, the last ocean poisoned, and the last fish eaten, will we realise we can&amp;rsquo;t eat money.&amp;rdquo;&lt;/p&gt;
 </description>
+      <pubDate>Sun, 19 Sep 2021 00:18:35 -0400</pubDate>
+      <link>https://netbros.com/#1632025115</link>
+      <guid isPermaLink="true">https://netbros.com/#1632025115</guid>
     </item>
     
   </channel>
