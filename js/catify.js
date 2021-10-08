@@ -314,7 +314,7 @@ function update(force) {
 
 	if(key_held[38] && !jumping && sitting) {
 		jumping = true;
-		jumpvel = 10;
+		jumpvel = 12;
 		jumpstate = -1;
 	}
 
