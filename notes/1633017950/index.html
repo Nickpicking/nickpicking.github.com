@@ -16,9 +16,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
-<script>
-hljs.initHighlightingOnLoad();
-</script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/js/catify.js"></script>
 
 <link rel="alternate" type="application/rss+xml" href="/index.xml" />
 
@@ -37,7 +36,7 @@ hljs.initHighlightingOnLoad();
 <meta name="twitter:description" content="Lunch time. Hmm&hellip; let&rsquo;s see. Baked broccoli it is! No salt, just some olive oil, and Italian spices. Wanted some tuna salad, but no lettuce (romaine is my favourite to eat with tuna salad), so that will have to wait."/>
 
 
-<body>
+<body onload="catify();">
 <header>
   <h1><a href="/" alt="Home" title="Home">Notes</a></h1>
 </header>

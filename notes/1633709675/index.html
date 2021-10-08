@@ -16,9 +16,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
-<script>
-hljs.initHighlightingOnLoad();
-</script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/js/catify.js"></script>
 
 <link rel="alternate" type="application/rss+xml" href="/index.xml" />
 
@@ -37,7 +36,7 @@ hljs.initHighlightingOnLoad();
 <meta name="twitter:description" content="This decision of mine of no eating unless the child does I am going to regret. Or it will make me really skinny. Or it will kill me. Either way, I am already feeling the regret part, but I will not back out."/>
 
 
-<body>
+<body onload="catify();">
 <header>
   <h1><a href="/" alt="Home" title="Home">Notes</a></h1>
 </header>

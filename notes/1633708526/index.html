@@ -16,9 +16,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
-<script>
-hljs.initHighlightingOnLoad();
-</script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/js/catify.js"></script>
 
 <link rel="alternate" type="application/rss+xml" href="/index.xml" />
 
@@ -37,7 +36,7 @@ hljs.initHighlightingOnLoad();
 <meta name="twitter:description" content="Day off today, and I don&rsquo;t know what to do. Have I been institutionalised? Mum isn&rsquo;t in town, so I can&rsquo;t go drink her tea 😂. What to do, what to do? Doing nothing is good too, I just don&rsquo;t want to do nothing."/>
 
 
-<body>
+<body onload="catify();">
 <header>
   <h1><a href="/" alt="Home" title="Home">Notes</a></h1>
 </header>

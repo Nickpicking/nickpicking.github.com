@@ -16,9 +16,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js"></script>
-<script>
-hljs.initHighlightingOnLoad();
-</script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="/js/catify.js"></script>
 
 <link rel="alternate" type="application/rss+xml" href="/index.xml" />
 
@@ -37,7 +36,7 @@ hljs.initHighlightingOnLoad();
 <meta name="twitter:description" content="The fancy cookie that is normally a Friday treat was consumed today. I did it for two reasons: it doesn&rsquo;t matter which day I eat it, as long as it is only one day per week; it will be a test to see how well I can control myself come Friday, and Friday is already special, no need for a cookie to make it more so. Alas, three reasons!"/>
 
 
-<body>
+<body onload="catify();">
 <header>
   <h1><a href="/" alt="Home" title="Home">Notes</a></h1>
 </header>
