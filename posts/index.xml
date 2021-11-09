@@ -5,7 +5,7 @@
     <description>Recent content on rambles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Nov 2021 15:46:26 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 09 Nov 2021 15:50:03 -0500</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
       <title>rambles</title>
@@ -16,6 +16,16 @@
     
         <atom:link href="https://netbros.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1636491003</title>
+      <link>https://netbros.com/posts/1636491003/</link>
+      <pubDate>Tue, 09 Nov 2021 15:50:03 -0500</pubDate>
+      
+      <guid>https://netbros.com/posts/1636491003/</guid>
+      <description>&lt;p&gt;Final dump, or spam. AT&amp;amp;T Fibre is coming this Thursday. Hopefully that latency, that slight delay that seems to take minutes, which get us killed (boom, head shot!) will stop. We simply can&amp;rsquo;t keep up living&amp;mdash;or dying&amp;mdash;like this.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>1636490786</title>
