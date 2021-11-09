@@ -65,13 +65,13 @@ h1 a:hover {
         font-family: "Source Code Pro";
         font-size: 1rem;
         color: #92282e;
-        border-radius: 7px;
+        border-radius: 6px;
 }
 
 pre, code {
         font-family: "Source Code Pro";
         color: #92282e;
-        border-radius: 7px;
+        border-radius: 6px;
 }
 
 a[rel*="external"]::after {
@@ -84,7 +84,7 @@ a[rel*="external"]::after {
         border: 1px solid #333333;
         padding: 5px 15px 5px 15px;
         margin-bottom: 15px;
-        border-radius: 7px;
+        border-radius: 6px;
 }
 
 .note:target {
@@ -191,12 +191,12 @@ blockquote a {
                 font-family: "Source Code Pro";
                 font-size: 0.95rem;
                 color: #92282e;
-                border-radius: 7px;
+                border-radius: 6px;
         }
 
         pre, code {
                 font-family: "Source Code Pro";
                 color: #92282e;
-                border-radius: 7px;
+                border-radius: 6px;
         }
 }
