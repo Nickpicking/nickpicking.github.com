@@ -1,9 +1,9 @@
 body {
         margin: 20px auto;
         max-width: 50em;
-        line-height: 1.7rem;
-        font-size: 1rem;
-        color: #dddddd;
+        line-height: 1.9rem;
+        font-size: 1.1rem;
+        color: #ffffff;
         background-color: #000000;
         padding: 0 10px;
         font-family: "Karla";
@@ -48,6 +48,7 @@ h1 {
         text-align: center;
         font-size: min(65px, 10vw);
         font-weight: bold;
+        letter-spacing: 2px;
         margin-bottom: 30px;
         margin-top: 40px;
 }
@@ -60,9 +61,17 @@ h1 a:hover {
 	color: #0086b3;
 }
 
-code, pre {
+.hljs {
         font-family: "Source Code Pro";
-        font-size: 0.9rem;
+        font-size: 1rem;
+        color: #92282e;
+        border-radius: 7px;
+}
+
+pre, code {
+        font-family: "Source Code Pro";
+        color: #92282e;
+        border-radius: 7px;
 }
 
 a[rel*="external"]::after {
@@ -72,13 +81,15 @@ a[rel*="external"]::after {
 }
 
 .note {
-        padding: 15px;
+        border: 1px solid #333333;
+        padding: 5px 15px 5px 15px;
         margin-bottom: 15px;
+        border-radius: 7px;
 }
 
 .note:target {
         border: 1px solid #00bfff;
-        padding: 14px;
+        padding: 5px 15px 5px 15px;
         background: #0e0e0e;
 }
 
@@ -127,8 +138,8 @@ img {
 }
 
 .footer {
-        margin-bottom: 30px;
-	font-size: 0.9rem;
+        margin-bottom: 40px;
+        color: #5e5e62;
 }
 
 .footer a:hover {
@@ -161,4 +172,31 @@ blockquote a:hover {
 
 blockquote a {
         color: #00bfff;
+}
+
+.warning {
+        background-color: #121212;
+        border-left: 2px solid red;
+        color: #00bfff;
+        width: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+        body {
+                font-size: 1rem;
+                line-height: 1.7rem;
+        }
+        
+        .hljs {
+                font-family: "Source Code Pro";
+                font-size: 0.95rem;
+                color: #92282e;
+                border-radius: 7px;
+        }
+
+        pre, code {
+                font-family: "Source Code Pro";
+                color: #92282e;
+                border-radius: 7px;
+        }
 }
