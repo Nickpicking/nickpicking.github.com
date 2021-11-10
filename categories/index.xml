@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rambles</title>
-    <link>https://netbros.com/categories/</link>
-    <description>On rambles</description>
+    <title>Just rambles</title>
+    <link>https://netbros.com</link>
+    <description>Just rambles</description>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
