@@ -1,8 +1,12 @@
+&lt;?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Just rambles</title>
-    <link>https://netbros.com</link>
     <description>Just rambles</description>
+    <link>https://netbros.com</link>
+    
+        <atom:link href="https://netbros.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
     <lastBuildDate>Tue, 09 Nov 2021 21:53:47 -0500</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
@@ -11,9 +15,6 @@
       <width>144</width>
       <height>144</height>
     </image>
-    
-        <atom:link href="https://netbros.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    
     
     <item>
       <title>2021-11-09 - 21:53:47-0500</title>
@@ -94,4 +95,3 @@ to whom you speak, of whom you speak, and how, when and where.&amp;rsquo;&lt;/p&
     
   </channel>
 </rss>
-
