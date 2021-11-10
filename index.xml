@@ -6,7 +6,7 @@
     
         <atom:link href="https://netbros.com/index.xml" rel="self" type="application/rss+xml" />
     
-    <lastBuildDate>Wed, 10 Nov 2021 11:53:29 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 10 Nov 2021 18:08:17 -0500</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
       <title>rambles</title>
@@ -14,6 +14,16 @@
       <width>144</width>
       <height>144</height>
     </image>
+    
+    <item>
+      <title>2021-11-10 - 18:08:17-0500</title>
+      <description>&lt;p&gt;It truly was a long day&amp;mdash;started at 06:00, ended at 17:00&amp;mdash;but now it is over. As I was ending my shift, and were almost dressed as I came to this world, I realised there was no water coming from the shower. Turns out there is an outage in my area 😩. Now I am tired, filthy, and itchy. Amanda, the nice representative at the utilities company, told me they don&amp;rsquo;t have an estimate on when the water will flow once more.&lt;/p&gt;
+&lt;p&gt;Oh dear, oh dear.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 10 Nov 2021 18:08:17 -0500</pubDate>
+      <link>https://netbros.com/#1636585697</link>
+      <guid isPermaLink="true">https://netbros.com/#1636585697</guid>
+    </item>
     
     <item>
       <title>2021-11-10 - 11:53:29-0500</title>
