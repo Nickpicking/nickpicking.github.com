@@ -3,7 +3,7 @@
     <title>Just rambles</title>
     <link>https://netbros.com</link>
     <description>Just rambles</description>
-    <lastBuildDate>Tue, 09 Nov 2021 20:36:50 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 09 Nov 2021 21:53:47 -0500</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
       <title>rambles</title>
@@ -14,6 +14,17 @@
     
         <atom:link href="https://netbros.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2021-11-09 - 21:53:47-0500</title>
+      <description>&lt;p&gt;I am so confussed with the RSS generation on this little experiment here. On Reeder, it only shows the title, no description. That is not the way it is supposed to be.&lt;/p&gt;
+</description>
+      <content:encoded><p>I am so confussed with the RSS generation on this little experiment here. On Reeder, it only shows the title, no description. That is not the way it is supposed to be.</p>
+</content:encoded>
+      <pubDate>Tue, 09 Nov 2021 21:53:47 -0500</pubDate>
+      <link>https://netbros.com/#1636512827</link>
+      <guid isPermaLink="true">https://netbros.com/#1636512827</guid>
+    </item>
     
     <item>
       <title>2021-11-09 - 20:36:50-0500</title>
