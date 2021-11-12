@@ -6,7 +6,7 @@
     
         <atom:link href="https://netbros.com/index.xml" rel="self" type="application/rss+xml" />
     
-    <lastBuildDate>Thu, 11 Nov 2021 12:01:42 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 11 Nov 2021 19:51:36 -0500</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
       <title>rambles</title>
@@ -14,6 +14,15 @@
       <width>144</width>
       <height>144</height>
     </image>
+    
+    <item>
+      <title>2021-11-11 - 19:51:36-0500</title>
+      <description>&lt;p&gt;This one is short, and only to say &amp;ldquo;👋🏻 Claudine!&amp;rdquo; ☺️&lt;/p&gt;
+</description>
+      <pubDate>Thu, 11 Nov 2021 19:51:36 -0500</pubDate>
+      <link>https://netbros.com/#1636678296</link>
+      <guid isPermaLink="true">https://netbros.com/#1636678296</guid>
+    </item>
     
     <item>
       <title>2021-11-11 - 12:01:42-0500</title>
