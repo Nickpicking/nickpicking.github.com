@@ -1,7 +1,7 @@
 body {
         margin: 20px auto;
-        max-width: 50em;
-        line-height: 1.9rem;
+        max-width: 40em;
+        line-height: 1.5rem;
         font-size: 1.1rem;
         color: #ffffff;
         background-color: #000000;
@@ -82,14 +82,20 @@ a[rel*="external"]::after {
 
 .note {
         border: 1px solid #333333;
-        padding: 5px 15px 5px 15px;
+	font-family: "Source Code Pro";
+        font-size: 0.9rem;
+        padding: 15px;
         margin-bottom: 15px;
-        border-radius: 6px;
+}
+
+.note-body {
+	border-top: 1px solid #333333;
+	padding-top: 10px;
 }
 
 .note:target {
         border: 1px solid #00bfff;
-        padding: 5px 15px 5px 15px;
+        padding: 15px;
         background: #0e0e0e;
 }
 
@@ -139,6 +145,8 @@ img {
 }
 
 .footer {
+        font-family: "Source Code Pro";
+        font-size: 0.9rem;
         margin-bottom: 40px;
         color: #5e5e62;
 }
@@ -200,4 +208,30 @@ blockquote a {
                 color: #92282e;
                 border-radius: 6px;
         }
+}
+
+.table {
+	display: table;
+	width: 350px;
+   	padding-bottom: 10px;
+}
+
+.tr { 
+	display: table-row;
+}
+
+.td { 
+	display: table-cell;
+        font-family: "Source Code Pro";
+        font-size: 0.9rem;
+	color: #5d95a8;
+	line-height: 1.3rem;
+}
+
+.td a {
+	color: #5e5e62;
+}
+
+.td a:hover {
+        color: #00bfff;
 }

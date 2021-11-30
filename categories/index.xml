@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Just rambles</title>
-    <description>Just rambles</description>
+    <title>Just notes</title>
+    <description>Just notes</description>
     <link>https://netbros.com</link>
     
         <atom:link href="https://netbros.com/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -9,21 +9,41 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
-      <title>rambles</title>
+      <title>notes</title>
       <link>https://netbros.com/categories/</link>
       <width>144</width>
       <height>144</height>
     </image>
     
     <item>
+      <title>2021-11-29 - 13:01:15-0500</title>
+      <description>&lt;p&gt;This is a real test of sorts, but I am not sure how will it work, or if it will work as I want. The idea is to write notes mimicking an email. I am not quite there yet, but getting closer.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 29 Nov 2021 13:01:15 -0500</pubDate>
+      <link>https://netbros.com/#1638208875</link>
+      <guid isPermaLink="true">https://netbros.com/#1638208875</guid>
+    </item>
+    
+    <item>
       <title>2021-11-14 - 17:26:50-0500</title>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;You don&amp;rsquo;t need a plane to fly&lt;br&gt;
-Plastic wings may make you cry&lt;br&gt;
-Kites are made for windy days&lt;br&gt;
-Lawn chairs with balloons fly away&lt;br&gt;
+      <description>&lt;p&gt;From the episode 
+
+
+
+
+
+
+
+  &lt;a  target=&#34;_blank&#34; rel=&#34;external noopener&#34; href=&#34;https://spongebob.fandom.com/wiki/The_Sponge_Who_Could_Fly&#34;&gt;The Sponge who could fly&lt;/a&gt;
+
+
+
+, a nugget of wisdom:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;You don&amp;rsquo;t need a plane to fly, plastic wings may make you cry&lt;br&gt;
+Kites are made for windy days, lawn chairs with balloons fly away&lt;br&gt;
 Inflatable pants you may as well skip&lt;br&gt;
-If you want to fly, all you need is friendship&lt;/p&gt;
+If you want to fly, all you need is friendship.&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;SpongeBob SquarePants, always wise. So much to learn for him!&lt;/p&gt;
 </description>
