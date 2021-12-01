@@ -158,7 +158,7 @@ img {
 hr {
         border: none;
         height: 1px;
-        background-color: #424040;
+        background-color: #333333;
 }
 
 section {
@@ -193,7 +193,7 @@ blockquote a {
 @media only screen and (max-width: 600px) {
         body {
                 font-size: 1rem;
-                line-height: 1.7rem;
+                line-height: 1.2rem;
         }
         
         .hljs {
