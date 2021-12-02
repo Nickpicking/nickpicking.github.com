@@ -19,8 +19,8 @@
       <title>2021-12-01 - 19:49:20-0500</title>
       <description>&lt;p&gt;What would the simplest, and easiest way to style a blockquote on CSS be, so that it mimics the &amp;ldquo;old style&amp;rdquo; email reply quoting? Something like this:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&amp;gt; This is a sentence here, that looks&lt;br&gt;
-&amp;gt; like a quoted reply.&lt;br&gt;
+&lt;p&gt;&amp;gt; This is a sentence here, that &lt;br&gt;
+&amp;gt; looks like a quoted reply.&lt;br&gt;
 &amp;gt; And this is another.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I ponder, I ponder, while looking Down Under&amp;hellip;&lt;/p&gt;
