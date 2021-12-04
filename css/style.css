@@ -2,7 +2,7 @@ body {
         margin: 20px auto;
         max-width: 45em;
         line-height: 1.5rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: #ffffff;
         background-color: #000000;
         padding: 0 10px;
@@ -191,10 +191,10 @@ blockquote a {
 }
 
 @media only screen and (max-width: 600px) {
-        body {
-                font-size: 1rem;
+	.note {
+                font-size: 0.9rem;
                 line-height: 1.2rem;
-        }
+	}
         
         .hljs {
                 font-family: "Anonymous Pro";
@@ -212,7 +212,7 @@ blockquote a {
 
 .table {
 	display: table;
-	width: 350px;
+	width: 100%;
    	padding-bottom: 10px;
 }
 
@@ -220,7 +220,16 @@ blockquote a {
 	display: table-row;
 }
 
-.td { 
+.td1 { 
+	display: table-cell;
+        font-family: "Anonymous Pro";
+        font-size: 0.9rem;
+	color: #5d95a8;
+	line-height: 1.3rem;
+	width: 25%;
+}
+
+.td2 { 
 	display: table-cell;
         font-family: "Anonymous Pro";
         font-size: 0.9rem;
@@ -228,10 +237,10 @@ blockquote a {
 	line-height: 1.3rem;
 }
 
-.td a {
+.td2 a {
 	color: #5e5e62;
 }
 
-.td a:hover {
+.td2 a:hover {
         color: #00bfff;
 }
