@@ -6,7 +6,7 @@
     
         <atom:link href="https://netbros.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    <lastBuildDate>Mon, 06 Dec 2021 11:26:15 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 06 Dec 2021 15:50:15 -0500</lastBuildDate>
     <image>
       <url>https://netbros.com/apple-icon-144x144.png</url>
       <title>notes</title>
@@ -16,13 +16,13 @@
     </image>
     
     <item>
-      <title>2021-12-03 - 15:27:21-0500</title>
-      <description>&lt;p&gt;I have added the simple ability to reply to notes, by clicking on the note&amp;rsquo;s subject. I will pin this note for a little bit, so that it remain fresh for a while. I am not expecting replies, but being able to do so is here now, in case one is merited.&lt;/p&gt;
-&lt;p&gt;Note&amp;rsquo;s permalink can still be found on the date, and on the Note-ID.&lt;/p&gt;
+      <title>2021-12-06 - 15:50:15-0500</title>
+      <description>&lt;p&gt;I don&amp;rsquo;t really wish to be wealthy&amp;mdash;though I would not say no to wealth&amp;mdash;but to have enough to tell off a few people, and go on with my life without having to worry about income.&lt;/p&gt;
+&lt;p&gt;It seems that those who care are frowned upon, and penalised. The rest go on with their lives in apparent bliss.&lt;/p&gt;
 </description>
-      <pubDate>Fri, 03 Dec 2021 15:27:21 -0500</pubDate>
-      <link>https://netbros.com/#1638563241</link>
-      <guid isPermaLink="true">https://netbros.com/#1638563241</guid>
+      <pubDate>Mon, 06 Dec 2021 15:50:15 -0500</pubDate>
+      <link>https://netbros.com/#1638823815</link>
+      <guid isPermaLink="true">https://netbros.com/#1638823815</guid>
     </item>
     
     <item>
@@ -60,6 +60,16 @@
       <pubDate>Fri, 03 Dec 2021 18:58:48 -0500</pubDate>
       <link>https://netbros.com/#1638575928</link>
       <guid isPermaLink="true">https://netbros.com/#1638575928</guid>
+    </item>
+    
+    <item>
+      <title>2021-12-03 - 15:27:21-0500</title>
+      <description>&lt;p&gt;I have added the simple ability to reply to notes, by clicking on the note&amp;rsquo;s subject. I will pin this note for a little bit, so that it remain fresh for a while. I am not expecting replies, but being able to do so is here now, in case one is merited.&lt;/p&gt;
+&lt;p&gt;Note&amp;rsquo;s permalink can still be found on the date, and on the Note-ID.&lt;/p&gt;
+</description>
+      <pubDate>Fri, 03 Dec 2021 15:27:21 -0500</pubDate>
+      <link>https://netbros.com/#1638563241</link>
+      <guid isPermaLink="true">https://netbros.com/#1638563241</guid>
     </item>
     
     <item>
