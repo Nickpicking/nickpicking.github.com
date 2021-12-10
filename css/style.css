@@ -33,7 +33,7 @@ body {
 }
 
 ::selection {
-	color: #00bfff;
+	color: #dc143c;
 	background: slategray;
 }
 
