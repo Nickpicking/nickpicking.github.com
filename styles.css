@@ -1,6 +1,7 @@
 :root {
 	--background-colour: #000000;
 	--blue: #00bfff;
+	--dark-orange: #ff8c00;
 	--white: #ffffff;
 	--h1-hover: #0086b3;
 	--note-hover: #0086b3;
@@ -72,7 +73,7 @@ pre, code {
 }
 
 .note:target {
-        color:  var(--blue);
+        color:  var(--dark-orange);
 }
 
 .note p:first-child {
