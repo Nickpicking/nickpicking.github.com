@@ -56,7 +56,7 @@ h1 a:hover {
 }
 
 pre, code {
-	font-family: monospace;
+	font-family: var(--font-mono);
 	color: var(--pre-color);
 	border-radius: 6px;
 }
