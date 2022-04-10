@@ -95,7 +95,6 @@ a {
 
 .note-date {
 	font-family: var(--font-mono);
-	font-size: 1.2rem;
 }
 
 .note-date a {
@@ -109,7 +108,6 @@ a {
 img {
 	width: 100%;
 	border: 1px solid #000000;
-	border-radius: 5px;
 }
 
 .footer {
