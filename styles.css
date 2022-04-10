@@ -7,13 +7,13 @@
 	--note-a: #5e5e62;
 	--pre-color: #92282e;
 	--font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	--font-mono: monospace;
+	--font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
 		
 body {
 	margin: 20px auto;
 	max-width: 36em;
-	line-height: 1.5rem;
+	line-height: 1.6rem;
 	font-size: 1rem;
 	color: var(--white);
 	background-color: var(--background-colour);
