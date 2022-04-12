@@ -61,9 +61,16 @@ pre, code {
 	font-family: var(--font-mono);
 	color: var(--pre-color);
 	font-size: 0.9rem;
-	border-radius: 6px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	line-height: 20px;
+	background: #000000;
+	padding: 10px;
 }
-
 
 .note:not(:last-child) {
 	font-size: 1rem;
