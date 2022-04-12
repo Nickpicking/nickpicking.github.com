@@ -1,8 +1,9 @@
 :root {
-	--background-colour: #000000;
+	--background-colour: #181818;
 	--blue: #00bfff;
-	--dark-orange: #ff8c00;
-	--white: #ffffff;
+	--text-target: #008fb3;
+	--background-target: #000000;
+	--default-text: #e8e8e8;
 	--h1-hover: #0086b3;
 	--note-hover: #0086b3;
 	--note-a: #5e5e62;
@@ -16,7 +17,7 @@ body {
 	max-width: 36em;
 	line-height: 1.6rem;
 	font-size: 1rem;
-	color: var(--white);
+	color: var(--default-text);
 	background-color: var(--background-colour);
 	padding: 0 15px;
 	font-family: var(--font-body);
@@ -81,7 +82,7 @@ pre, code {
 }
 
 .note:target {
-        color:  var(--dark-orange);
+        color:  var(--text-target);
 }
 
 .note p:first-child {
@@ -93,12 +94,10 @@ pre, code {
 }
 
 a {
-	text-decoration: none;
 	color: var(--blue);
 }
 
 .note a:hover {
-	text-decoration: none;
 	color: var(--note-hover);
 }
 
@@ -108,6 +107,7 @@ a {
 }
 
 .note-date a {
+	text-decoration: none;
 	color: var(--note-a);
 }
 
@@ -125,6 +125,10 @@ img {
 	font-size: 0.9rem;
 	margin-bottom: 40px;
 	color: #5e5e62;
+}
+
+.footer a {
+	text-decoration: none;
 }
 
 .footer a:hover {
