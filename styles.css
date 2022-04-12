@@ -104,6 +104,7 @@ a {
 
 .note-date {
 	font-family: var(--font-mono);
+	font-size: 1rem;
 }
 
 .note-date a {
