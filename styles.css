@@ -62,10 +62,18 @@ pre, code {
 	border-radius: 6px;
 }
 
-.note {
-        font-family: var(--font-body);
+
+.note:not(:last-child) {
 	font-size: 1rem;
 	margin-bottom: 25px;
+	border-bottom: 1px solid #333333;
+	padding-bottom: 2rem;
+}
+
+.note:last-child {
+	font-size: 1rem;
+	margin-bottom: 25px;
+	padding-bottom: 2rem;
 }
 
 .note-body {                
@@ -125,6 +133,7 @@ img {
 hr {
 	border: none;
 	height: 1px;
+	margin-top: 2rem;
 	background-color: #333333;
 }
 
