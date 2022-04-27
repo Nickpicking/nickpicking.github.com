@@ -92,12 +92,12 @@ pre, code {
 .note:not(:last-child) {
 	font-size: 1rem;
 	border-bottom: 1px solid var(--hr-background-colour);
-	padding: 1rem 0.5rem 1rem 0.5rem;
+	margin: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .note:last-child {
 	font-size: 1rem;
-	padding: 1rem 0.5rem 1rem 0.5rem;
+	margin: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .note-body {                
