@@ -8,6 +8,7 @@
 	--note-hover: #0086b3;
 	--note-a: #5e5e62;
 	--pre-color: #ffffff;
+	--hr-background-colour: #888888;
 	--pre-background-color: #888888;
 	--font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	--font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
@@ -24,6 +25,7 @@
 		--note-hover: #0086b3;
 		--note-a: #5e5e62;
 		--pre-color: #d1c1c2;
+		--hr-background-colour: #333333;
 		--pre-background-color: #000000;
 	}
 }
@@ -161,7 +163,7 @@ img {
 hr {
 	border: none;
 	height: 1px;
-	background-color: #333333;
+	background-color: var(--hr-background-colour);
 }
 
 blockquote {
