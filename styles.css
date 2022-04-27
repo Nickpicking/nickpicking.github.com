@@ -92,7 +92,7 @@ pre, code {
 .note:not(:last-child) {
 	font-size: 1rem;
 	margin-bottom: 25px;
-	border-bottom: 1px solid #333333;
+	border-bottom: 1px solid var(--hr-background-colour);
 	padding-bottom: 1rem;
 }
 
