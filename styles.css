@@ -2,7 +2,7 @@
 	--background-colour: #f9f6ee;
 	--blue: #00bfff;
 	--text-target: #008fb3;
-	--background-target: #ffffff;
+	--background-target: #dedede;
 	--default-text: #000000;
 	--h1-hover: #0086b3;
 	--note-hover: #0086b3;
@@ -32,7 +32,7 @@
 
 body {
 	margin: 20px auto;
-	max-width: 36em;
+	max-width: 37em;
 	line-height: 1.6rem;
 	font-size: 1rem;
 	color: var(--default-text);
@@ -91,15 +91,13 @@ pre, code {
 
 .note:not(:last-child) {
 	font-size: 1rem;
-	margin-bottom: 25px;
 	border-bottom: 1px solid var(--hr-background-colour);
-	padding-bottom: 1rem;
+	padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .note:last-child {
 	font-size: 1rem;
-	margin-bottom: 25px;
-	padding-bottom: 1rem;
+	padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
 .note-body {                
@@ -108,6 +106,7 @@ pre, code {
 
 .note:target {
         color:  var(--text-target);
+	background: var(--background-target);
 }
 
 .note p:first-child {
@@ -183,7 +182,7 @@ blockquote a {
 @media only screen and (max-width: 600px) {
 	.note {
 		font-size: 0.9rem;
-		line-height: 1.4rem;
+		line-height: 1.5rem;
 	}
 	pre, code {
 		color: var(--pre-colour);
