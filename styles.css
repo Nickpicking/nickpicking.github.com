@@ -50,7 +50,7 @@ body {
 
 .description {
 	color: var(--header-description-colour);
-	text-size: var(--header-description-size);
+	font-size: var(--header-description-size);
 }
 
 ::selection {
