@@ -59,8 +59,7 @@ h1, h2, h3 {
 
 h1 {
 	color: #dddddd;
-	text-align: center;
-	font-size: min(45px, 10vw);
+	font-size: min(40px, 10vw);
 	font-weight: bold;
 	letter-spacing: 2px;
 	margin-bottom: 30px;
