@@ -52,6 +52,7 @@ body {
 	color: var(--header-description-colour);
 	font-size: var(--header-description-size);
 	margin-bottom: 30px;
+	letter-spacing: 2px;
 }
 
 ::selection {
