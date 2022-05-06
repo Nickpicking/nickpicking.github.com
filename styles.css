@@ -48,6 +48,11 @@ body {
 	hyphens: auto;
 }
 
+.description {
+	color: var(--header-description-colour);
+	text-size: var(--header-description-size);
+}
+
 ::selection {
 	color: var(--blue);
 	background: slategray;
@@ -64,7 +69,7 @@ h1 {
 	font-size: min(40px, 10vw);
 	font-weight: bold;
 	letter-spacing: 2px;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 	margin-top: 40px;
 }
 
