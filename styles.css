@@ -198,7 +198,4 @@ blockquote a {
 		font-size: 0.9rem;
 		line-height: 1.5rem;
 	}
-	pre, code {
-		border-radius: 6px;
-	}
 }
