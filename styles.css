@@ -7,11 +7,11 @@
 	--h1-hover: #0086b3;
 	--note-hover: #0086b3;
 	--note-a: #5e5e62;
-	--pre-colour: #ffffff;
+	--pre-colour: #000000;
 	--header-description-colour: #5e5e62;
 	--header-description-size: 0.9rem;
 	--hr-background-colour: #888888;
-	--pre-background-colour: #888888;
+	--pre-background-colour: #dadada;
 	--font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	--font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
