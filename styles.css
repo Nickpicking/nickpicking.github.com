@@ -96,7 +96,7 @@ pre, code {
 	overflow-y: hidden;
 	line-height: 20px;
 	background: var(--pre-background-colour);
-	padding: 3px 5px 3px 5px;
+	padding: 4px 5px 4px 5px;
 }
 
 .note:not(:last-child) {
