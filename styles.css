@@ -125,7 +125,7 @@ pre, code {
 
 .targeted {
  	color: var(--circle-text-colour);
- 	margin: 0 0.5em 0 -1.5rem;
+ 	margin: 0 0.5em 0 0;
  	display: inline;
 }
 
@@ -208,11 +208,5 @@ blockquote a {
 	.note {
 		font-size: 0.9rem;
 		line-height: 1.5rem;
-	}
-
-	.targeted {
-		color: var(--circle-text-colour);
-		margin: 0 0.5em 0 0;
-		display: inline;
 	}
 }
