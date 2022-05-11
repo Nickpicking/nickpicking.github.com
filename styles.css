@@ -209,4 +209,10 @@ blockquote a {
 		font-size: 0.9rem;
 		line-height: 1.5rem;
 	}
+
+	.targeted {
+		color: var(--circle-text-colour);
+		margin: 0 0.5em 0 0;
+		display: inline;
+	}
 }
