@@ -122,6 +122,20 @@ pre, code {
         color:  var(--text-target);
 }
 
+.note .targeted {
+	display: none;
+}
+
+.targeted {
+ 	color: var(--text-target);
+ 	margin-right: .2em;
+ 	display:inline
+}
+
+.note:target .targeted {
+	display:inline
+}
+
 .note p:first-child {
 	margin-top: 3px;
 }
