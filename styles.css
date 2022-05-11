@@ -2,6 +2,7 @@
 	--background-colour: #ffffff;
 	--blue: #00bfff;
 	--text-target: #008fb3;
+	--circle-text-colour: #008fb3;
 	--background-target: #dedede;
 	--default-text: #000000;
 	--h1-hover: #0086b3;
@@ -117,18 +118,14 @@ pre, code {
 .note-body {                
 	padding-top: 10px;
 }
-/*
-.note:target {
-        color:  var(--text-target);
-}
-*/
+
 .note .targeted {
 	display: none;
 }
 
 .targeted {
- 	color: var(--text-target);
- 	margin-right: 0.5em;
+ 	color: var(--circle-text-colour);
+ 	margin: 0 0.5em 0 -1.5rem;
  	display: inline;
 }
 
@@ -163,7 +160,7 @@ a {
 }
 
 .note-date a:hover {
-	color: var(--blue);
+	color: var(--note-a);
 }
 
 img {
