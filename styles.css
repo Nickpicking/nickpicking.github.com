@@ -117,23 +117,23 @@ pre, code {
 .note-body {                
 	padding-top: 10px;
 }
-
+/*
 .note:target {
         color:  var(--text-target);
 }
-
+*/
 .note .targeted {
 	display: none;
 }
 
 .targeted {
  	color: var(--text-target);
- 	margin-right: .2em;
- 	display:inline
+ 	margin-right: 0.5em;
+ 	display: inline;
 }
 
 .note:target .targeted {
-	display:inline
+	display: inline;
 }
 
 .note p:first-child {
