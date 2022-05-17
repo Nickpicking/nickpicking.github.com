@@ -125,6 +125,13 @@ pre, code {
  	color: var(--circle-text-colour);
  	margin: 0 0.5em 0 0;
  	display: inline;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
 }
 
 .note:target .targeted {
