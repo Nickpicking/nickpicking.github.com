@@ -190,6 +190,7 @@ hr {
 }
 
 blockquote {
+	border-radius: 5px;
 	color: var(--blockquote-text-colour);
 	padding: 1rem;
 	margin: 0rem;
