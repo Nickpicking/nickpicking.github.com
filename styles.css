@@ -33,7 +33,7 @@
 		--hr-background-colour: #535353;
 		--pre-background-colour: #141414;
 		--blockquote-background-colour: #141414;
-		--blockquote-text-colour: #e8e8e8;
+		--blockquote-text-colour: #ffffff;
 	}
 }
 
@@ -195,7 +195,6 @@ blockquote {
 	color: var(--blockquote-text-colour);
 	padding-left: 1rem;
 	margin: 0rem;
-	background-color: var(--blockquote-background-colour);
 }
 
 blockquote::before {
