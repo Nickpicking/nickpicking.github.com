@@ -193,9 +193,15 @@ hr {
 blockquote {
 	border-radius: 5px;
 	color: var(--blockquote-text-colour);
-	padding: 1rem;
+	padding-left: 1rem;
 	margin: 0rem;
 	background-color: var(--blockquote-background-colour);
+}
+
+blockquote::before {
+	content: "> ";
+	float: left;
+	margin: 0 0 0 -1em;
 }
 
 blockquote a:hover {
