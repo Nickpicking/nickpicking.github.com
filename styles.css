@@ -43,7 +43,7 @@ body {
 	margin: 20px auto;
 	max-width: 37em;
 	line-height: 1.5rem;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: var(--default-text);
 	background-color: var(--background-colour);
 	padding: 0 15px;
@@ -105,13 +105,13 @@ pre, code {
 }
 
 .note:not(:last-child) {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	border-bottom: 1px solid var(--hr-background-colour);
 	padding: 1rem 0 1rem 0;
 }
 
 .note:last-child {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	padding: 1rem 0 1rem 0;
 }
 
