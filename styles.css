@@ -42,7 +42,7 @@
 body {
 	margin: 20px auto;
 	max-width: 37em;
-	line-height: 1.4444
+	line-height: 1.5rem;
 	font-size: 1rem;
 	color: var(--default-text);
 	background-color: var(--background-colour);
