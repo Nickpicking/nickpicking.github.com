@@ -104,13 +104,13 @@ pre, code {
 }
 
 .note:not(:last-child) {
-	font-size: 1rem;
+	font-size: 18px;
 	border-bottom: 1px solid var(--hr-background-colour);
 	padding: 1rem 0 1rem 0;
 }
 
 .note:last-child {
-	font-size: 1rem;
+	font-size: 18px;
 	padding: 1rem 0 1rem 0;
 }
 
