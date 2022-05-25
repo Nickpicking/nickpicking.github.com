@@ -48,7 +48,6 @@ body {
 	background-color: var(--background-colour);
 	padding: 0 15px;
 	font-family: var(--font-body);
-	text-rendering: optimizeLegibility;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
