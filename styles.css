@@ -211,7 +211,7 @@ blockquote a {
 
 @media only screen and (max-width: 600px) {
 	.note {
-		font-size: 0.9rem;
+		font-size: 16px;
 		line-height: 1.5rem;
 	}
 }
